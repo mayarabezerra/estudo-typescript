@@ -3,6 +3,7 @@ import { Negociacoes } from '../models/negociacoes.js';
 import { View } from './view.js';
 
 export class NegociacoesView extends View<Negociacoes> {
+
     @escapar
     protected template(model: Negociacoes): string {
         return `
